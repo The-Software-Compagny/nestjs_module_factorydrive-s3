@@ -1,0 +1,43 @@
+{
+  "name": "@streamkits/nestjs_module_factorydrive-s3",
+  "version": "0.0.1",
+  "description": "AWS S3 driver for @streamkits/nestjs_module_factorydrive",
+  "repository": "https://github.com/StreamKITS/nestjs_module_factorydrive.git",
+  "author": "Tacx <12997062+tacxticx88@users.noreply.github.com>",
+  "license": "MIT",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "keywords": [
+    "storage",
+    "filesystem",
+    "file",
+    "aws",
+    "s3",
+    "promise",
+    "async",
+    "spaces",
+    "factorydrive"
+  ],
+  "files": [
+    "build"
+  ],
+  "scripts": {
+    "prebuild": "rimraf dist",
+    "build": "tsc",
+    "postbuild": "cpr README.md dist/README.md && cpr LICENSE dist/LICENSE && cpr package.json dist/package.json"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": ">=3.328.0",
+    "@aws-sdk/s3-request-presigner": "^3.414.0"
+  },
+  "peerDependencies": {
+    "@streamkits/nestjs_module_factorydrive": "^0.0.7"
+  },
+  "devDependencies": {
+    "@streamkits/nestjs_module_factorydrive": "^0.0.7",
+    "typescript": "^5.2.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
