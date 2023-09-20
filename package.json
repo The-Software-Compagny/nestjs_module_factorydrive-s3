@@ -1,6 +1,6 @@
 {
   "name": "@streamkits/nestjs_module_factorydrive-s3",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "AWS S3 driver for @streamkits/nestjs_module_factorydrive",
   "repository": "https://github.com/StreamKITS/nestjs_module_factorydrive.git",
   "author": "Tacx <12997062+tacxticx88@users.noreply.github.com>",
