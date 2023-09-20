@@ -1,6 +1,6 @@
 {
   "name": "@streamkits/nestjs_module_factorydrive-s3",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "AWS S3 driver for @streamkits/nestjs_module_factorydrive",
   "repository": "https://github.com/StreamKITS/nestjs_module_factorydrive.git",
   "author": "Tacx <12997062+tacxticx88@users.noreply.github.com>",
@@ -27,6 +27,7 @@
     "@aws-sdk/s3-request-presigner": "^3.414.0"
   },
   "devDependencies": {
+    "@types/node": "^18.0.0",
     "@streamkits/nestjs_module_factorydrive": "^0.0.7",
     "typescript": "^5.2.2",
     "rimraf": "^4.4.0"
