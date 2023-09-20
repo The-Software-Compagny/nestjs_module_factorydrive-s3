@@ -42,15 +42,11 @@ export class AwsS3Storage extends AbstractStorage {
 
   public constructor(config: AmazonWebServicesS3StorageConfig) {
     super()
-    // eslint-disable-next-line @typescript-eslint/no-var-requires
-    const S3 = require('aws-sdk/clients/s3')
-
     this.$driver = new S3({
       accessKeyId: config.key,
       secretAccessKey: config.secret,
       ...config,
     })
-
     this.$bucket = config.bucket
   }
 
