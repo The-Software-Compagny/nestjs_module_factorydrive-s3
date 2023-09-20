@@ -1,12 +1,11 @@
 {
   "name": "@streamkits/nestjs_module_factorydrive-s3",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "AWS S3 driver for @streamkits/nestjs_module_factorydrive",
   "repository": "https://github.com/StreamKITS/nestjs_module_factorydrive.git",
   "author": "Tacx <12997062+tacxticx88@users.noreply.github.com>",
   "license": "MIT",
-  "main": "build/index.js",
-  "types": "build/index.d.ts",
+  "main": "dist/index.js",
   "keywords": [
     "storage",
     "filesystem",
@@ -17,9 +16,6 @@
     "async",
     "spaces",
     "factorydrive"
-  ],
-  "files": [
-    "build"
   ],
   "scripts": {
     "prebuild": "rimraf dist",
