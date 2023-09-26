@@ -17,8 +17,6 @@ import { GetObjectCommand, S3, S3ClientConfig } from '@aws-sdk/client-s3'
 import { getSignedUrl } from '@aws-sdk/s3-request-presigner'
 
 export interface AmazonWebServicesS3StorageConfig extends S3ClientConfig {
-  key: string
-  secret: string
   bucket: string
 }
 
@@ -42,11 +40,7 @@ export class AwsS3Storage extends AbstractStorage {
 
   public constructor(config: AmazonWebServicesS3StorageConfig) {
     super()
-    this.$driver = new S3({
-      accessKeyId: config.key,
-      secretAccessKey: config.secret,
-      ...config,
-    })
+    this.$driver = new S3(config)
     this.$bucket = config.bucket
   }
 
