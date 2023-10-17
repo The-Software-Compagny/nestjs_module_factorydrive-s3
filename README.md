@@ -18,6 +18,11 @@
 # S3 driver for Factory drive module
 S3 driver for Factory drive module from NestJS framework
 
+## Install dependencies
+```bash
+yarn add @streamkits/nestjs_module_factorydrive @streamkits/nestjs_module_factorydrive-s3
+```
+
 ## Usage
 ```ts
 @Module({
