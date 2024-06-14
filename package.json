@@ -42,7 +42,7 @@
     "@types/node": "^18.0.0",
     "@streamkits/nestjs_module_factorydrive": "^0.0.7",
     "typescript": "^5.2.2",
-    "rimraf": "^4.4.0",
+    "rimraf": "^5.0.7",
     "cpr": "^3.0.1",
     "eslint": "^8.48.0",
     "eslint-config-prettier": "^9.0.0",
