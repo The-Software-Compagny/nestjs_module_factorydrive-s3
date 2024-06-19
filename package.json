@@ -3,7 +3,18 @@
   "version": "1.0.1",
   "description": "AWS S3 driver for @the-software-compagny/nestjs_module_factorydrive",
   "repository": "https://github.com/The-Software-Compagny/nestjs_module_factorydrive-s3.git",
-  "author": "Tacx <12997062+tacxticx88@users.noreply.github.com>",
+  "author": "tacxou <12997062+tacxou@users.noreply.github.com> (https://github.com/tacxou)",
+  "contributors": [
+    {
+      "name": " tacxou",
+      "email": "12997062+tacxou@users.noreply.github.com",
+      "url": "https://github.com/tacxou"
+    },
+    {
+      "name": "Contributors",
+      "url": "https://github.com/The-Software-Compagny/nestjs_module_factorydrive-s3/graphs/contributors"
+    }
+  ],
   "license": "MIT",
   "main": "dist/index.js",
   "keywords": [
