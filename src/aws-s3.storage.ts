@@ -12,7 +12,7 @@ import {
   SignedUrlResponse,
   StatResponse,
   UnknownException,
-} from '@streamkits/nestjs_module_factorydrive'
+} from '@the-software-compagny/nestjs_module_factorydrive'
 import { GetObjectCommand, S3, S3ClientConfig } from '@aws-sdk/client-s3'
 import { getSignedUrl } from '@aws-sdk/s3-request-presigner'
 
