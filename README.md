@@ -9,9 +9,9 @@
 </p>
 
 <p align="center">
-  <a href="https://www.npmjs.com/org/streamkits"><img src="https://img.shields.io/npm/v/@streamkits/nestjs_module_rcon.svg" alt="NPM Version" /></a>
-  <a href="https://www.npmjs.com/org/streamkits"><img src="https://img.shields.io/npm/l/@streamkits/nestjs_module_rcon.svg" alt="Package License" /></a>
-  <a href="https://github.com/StreamKITS/nestjs_module_rcon/actions/workflows/ci.yml"><img src="https://github.com/StreamKITS/nestjs_module_rcon/actions/workflows/ci.yml/badge.svg" alt="Publish Package to npmjs" /></a>
+  <a href="https://www.npmjs.com/org/The-Software-Compagny"><img src="https://img.shields.io/npm/v/@the-software-compagny/nestjs_module_rcon.svg" alt="NPM Version" /></a>
+  <a href="https://www.npmjs.com/org/The-Software-Compagny"><img src="https://img.shields.io/npm/l/@the-software-compagny/nestjs_module_rcon.svg" alt="Package License" /></a>
+  <a href="https://github.com/The-Software-Compagny/nestjs_module_rcon/actions/workflows/ci.yml"><img src="https://github.com/The-Software-Compagny/nestjs_module_rcon/actions/workflows/ci.yml/badge.svg" alt="Publish Package to npmjs" /></a>
 </p>
 <br>
 
@@ -20,7 +20,7 @@ S3 driver for Factory drive module from NestJS framework
 
 ## Install dependencies
 ```bash
-yarn add @streamkits/nestjs_module_factorydrive @streamkits/nestjs_module_factorydrive-s3
+yarn add @the-software-compagny/nestjs_module_factorydrive @the-software-compagny/nestjs_module_factorydrive-s3
 ```
 
 ## Usage
